@@ -7,3 +7,7 @@ name="PsychoPunkSage"
 age="1111"
 
 echo "My name is $name, my age is $age, and my favourite number is $a"
+
+name="AP"
+
+echo "My name is $name"
