@@ -6,5 +6,6 @@ welcomeUser() {
 	echo "----------"
 }
 
+# Ok Vaiiiiii!!
 welcomeUser PsychoPunkSage
 welcomeUser AP
