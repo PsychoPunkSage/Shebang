@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# function shorthand
 welcomeUser() {
 	echo "----------"
 	echo "Welcome $1"
