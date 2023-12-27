@@ -23,3 +23,19 @@ realpath 23_csv.csv
 realpath hohoho
 # Output: /home/psychopunk_sage/Code/Lang/SScripts/hohoho
 ```
+
+## Bash Varibles
+
+### RANDOM
+> A Random no. [0, 32767] is generated.
+```bash
+echo $RANDOM
+# 14536
+```
+
+### UID
+> User ID of the use logged in
+```bash
+echo $UID
+# 1000 ->  Logged User || 0 -> Root User
+```
