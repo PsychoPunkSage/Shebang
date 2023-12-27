@@ -39,3 +39,12 @@ echo $RANDOM
 echo $UID
 # 1000 ->  Logged User || 0 -> Root User
 ```
+
+## Redirections
+### >
+> If you want to print fresh data.....
+
+### >>
+> If you want to append data....
+
+> if we don't want to print the output of a command on terminal/file then we can redirect it to **`/dev/null`**

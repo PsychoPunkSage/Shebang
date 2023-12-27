@@ -2,7 +2,7 @@
 
 read -p "Which site you want to Check::>  " site
 
-ping -c 12 $site
+ping -c 12 $site &> /dev/null
 # sleep 5s
 
 if [[ $? -eq 0 ]]
