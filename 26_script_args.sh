@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [[ $# -eq 0 ]]
+then
+    echo "Please provide atleast one Args"
+    exit 1
+fi
+
 echo "All Arguments::> $@"
 echo "Number of arguments::> $#"
 
