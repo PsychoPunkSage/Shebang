@@ -48,3 +48,14 @@ echo $UID
 > If you want to append data....
 
 > if we don't want to print the output of a command on terminal/file then we can redirect it to **`/dev/null`**
+
+
+## LOGS Messages
+
+> If want to maintain logging for script, we can use **`logger`** in our script. <br>LogsLocation::> **`/var/log/messages`**
+
+
+## Debugging Scripts
+
+### set -x
+> Adding `set -x` at the beginning of the Script....
