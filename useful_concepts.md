@@ -67,3 +67,28 @@ echo $UID
 > It runs *Scripts* in background and stores output in **`nohup.out`**.<br>
 > Even if we close the terminal, the script will run.<br>
 > It will inform us as soon as the script is executed.
+
+## Automation
+
+### At
+> Use when scheduling tasks only one time....<br>
+> `< atq >`: to check scheduled job <br>
+> `< atrm <id> >`: to remove the scheduled job
+
+```bash
+$ at <time>
+at> COMMANDS to be executed
+Ctrl + D
+
+$ at <time> <Date: 31 December 2023>
+```
+
+### crontab
+> To Run scripts on repetitive basis...
+```bash
+# To check Existing Jobs
+crontab -l
+
+# To add new job
+crontab -e
+```
