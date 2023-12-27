@@ -58,4 +58,12 @@ echo $UID
 ## Debugging Scripts
 
 ### set -x
-> Adding `set -x` at the beginning of the Script....
+> Adding `set -x` at the beginning of the Script for *Step wise debugging*....
+### set -e
+> Adding `set -e` at the beginning of the Script if want to EXIT as soon as the command fail....
+
+## Running scripts in background
+### nohup ./scripts.sh &
+> It runs *Scripts* in background and stores output in **`nohup.out`**.<br>
+> Even if we close the terminal, the script will run.<br>
+> It will inform us as soon as the script is executed.

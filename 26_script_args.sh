@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Debugging 
+set -x
+
 if [[ $# -eq 0 ]]
 then
     echo "Please provide atleast one Args"
