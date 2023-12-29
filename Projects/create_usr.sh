@@ -53,4 +53,4 @@ echo "USername::> $USERNAME"
 echo 
 echo "Password::> $PASSWORD"
 echo 
-echo "$(hostname)"
+echo "Hostname::> $(hostname)"
