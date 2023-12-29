@@ -21,7 +21,7 @@ then
 fi
 
 # Find the list of Files > 200MB
-for i in `find $BASE -maxdepth $DEPTH -type f -size +200MB`
+for i in `find $BASE -maxdepth $DEPTH -type f -size +200M`
 do
 	if [[ $RUN -eq 0 ]]
 	then
