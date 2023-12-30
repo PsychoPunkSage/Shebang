@@ -23,3 +23,8 @@ grep -v [KEYWORD] file
 ```bash
 grep -c [KEYWORD] file
 ```
+
+> Search exact match of given pattern in a file.
+```bash
+grep -w [KEYWORD] file
+```
