@@ -55,7 +55,27 @@ grep -e [KEYWORD] -e [KEYWORD] file1 file2 file3 ....
 grep -l [KEYWORD] file1 file2 file3 ....
 ```
 
-> To get keyword/pattern from a file and match with another file
+> To get keyword/pattern from a file and match with another file/s.
 ```bash
 grep -f keyword.txt file
+grep -f keyword.txt file1 file2 file3 ....
+```
+
+> grep + wilcarts.
+```bash
+# Print line starting with Given word
+grep [^KEYWORD] file
+
+# Print line ending with Given word
+grep [KEYWORD$] file
+```
+
+> To search keyword from multiple file/s in a given `Directory`. \<<Recursive>>
+```bash
+grep -R [KEYWORD] dirXYZ/
+```
+
+> To search multiple keyword using `egrep`.
+```bash
+egrep "key1|key2|key3" file
 ```
