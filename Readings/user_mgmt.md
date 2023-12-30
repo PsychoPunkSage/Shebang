@@ -101,7 +101,7 @@ groupadd <GROUP_NAME>
 > Check
 ```bash
 less /etc/group
-# At the end you will find <GROUP_NAME>
+# At the end (Shift + G) you will find <GROUP_NAME>
 ```
 
 > Delete Group
