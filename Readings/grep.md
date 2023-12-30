@@ -28,3 +28,24 @@ grep -c [KEYWORD] file
 ```bash
 grep -w [KEYWORD] file
 ```
+
+> To print line no. of a given pattern in a file.
+```bash
+grep -n [KEYWORD] file
+```
+
+> To search given pattern in `MULTIPLE` file.
+```bash
+grep [KEYWORD] file1 file2 file3.....
+```
+
+> To `supress` filename while searching given pattern in MULTIPLE file.
+```bash
+grep -h [KEYWORD] file1 file2 file3.....
+```
+
+> To `search` `multiple` pattern in a file/s.
+```bash
+grep -e [KEYWORD] -e [KEYWORD] file
+grep -e [KEYWORD] -e [KEYWORD] file1 file2 file3 ....
+```
