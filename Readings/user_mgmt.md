@@ -77,3 +77,16 @@ less /etc/group
 ```
 
 </details>
+
+## Add Password
+
+```bash
+passwd <USERNAME>
+```
+
+## Group Management
+
+> Simple Way
+```bash
+groupadd <GROUP_NAME>
+```
