@@ -16,5 +16,5 @@ grep -i [KEYWORD] file
 
 > Search everything except given pattern.
 ```bash
-grep -i [KEYWORD] file
+grep -v [KEYWORD] file
 ```
