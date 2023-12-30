@@ -90,3 +90,26 @@ passwd <USERNAME>
 ```bash
 groupadd <GROUP_NAME>
 ```
+
+> Check
+```bash
+less /etc/group
+# At the end you will find <GROUP_NAME>
+```
+
+> Delete Group
+```bash
+groupdel <GROUP_NAME> 
+```
+
+## Details of All Users
+
+```bash
+less /etc/passwd
+# Info of all the users present in the system can be found here....
+```
+
+```bash
+less /etc/shadow
+# More Info about users like password/expiration date/renewal date etc.
+```
