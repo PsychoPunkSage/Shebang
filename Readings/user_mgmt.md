@@ -46,3 +46,34 @@ userdel -r <USERNAME>
 # Also remove Home directory....
 userdel -f <USERNAME>
 ```
+
+## Modify User
+> Mainly used for Group modification
+
+> 1. Add user to new group BUT `Default` group will remain SAME.....
+```bash
+usermod -G <GROUP_NAME> <USERNAME>
+```
+
+> 2. Change the `Default` group
+```bash
+usermod -g <GROUP_NAME> <USERNAME>
+```
+
+> Verification
+```bash
+less /etc/group
+# Go down and check for it....
+```
+
+<details>
+<summary>More Commands</summary>
+
+```
+-m -d /home/NEW_FOLDER  ::> Move content of home folder to NEW_FOLDER
+-p                      ::> Change Password
+-s                      ::> Change Shell type
+-L -U                   ::> Lock/Unlock a user
+```
+
+</details>
