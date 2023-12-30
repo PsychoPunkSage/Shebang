@@ -1,5 +1,12 @@
 # User Management
 
+## Important Locations
+```
+/etc/passwd ::> All User Informations
+/etc/shadow ::> All Users Sensitive Informations
+/etc/group  ::> All Groups Informations
+```
+
 ## Create User
 
 > Simple way
