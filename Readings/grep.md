@@ -18,3 +18,8 @@ grep -i [KEYWORD] file
 ```bash
 grep -v [KEYWORD] file
 ```
+
+> Count occurence of a  given pattern in a file.
+```bash
+grep -c [KEYWORD] file
+```
