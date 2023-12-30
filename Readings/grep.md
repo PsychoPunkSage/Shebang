@@ -54,3 +54,8 @@ grep -e [KEYWORD] -e [KEYWORD] file1 file2 file3 ....
 ```bash
 grep -l [KEYWORD] file1 file2 file3 ....
 ```
+
+> To get keyword/pattern from a file and match with another file
+```bash
+grep -f keyword.txt file
+```
