@@ -3,7 +3,7 @@
 >> **Basic Definition:**<br>
 > `Log Files` stores events, processes, messages, and other data from applcations, OS, or devices.<br>They provide informationbased on actions performed by users.... They are important if you `f**ked` something.
 
-## Important Location/s
+## Important Location
 
 ```
 /var/log
