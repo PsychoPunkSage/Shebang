@@ -70,7 +70,7 @@ grep [^KEYWORD] file
 grep [KEYWORD$] file
 ```
 
-> To search keyword from multiple file/s in a given `Directory`. \<<Recursive>>
+> To search keyword from multiple file/s in a given `Directory`. \<\<Recursive>>
 ```bash
 grep -R [KEYWORD] dirXYZ/
 ```
@@ -78,4 +78,14 @@ grep -R [KEYWORD] dirXYZ/
 > To search multiple keyword using `egrep`.
 ```bash
 egrep "key1|key2|key3" file
+```
+
+> If you want to search but NOT print on terminal.
+```bash
+grep -q [KEYWORD] file
+```
+
+> If you want to SUPRESS error messages.
+```bash
+grep -s [KEYWORD] file
 ```
