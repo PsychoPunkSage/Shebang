@@ -60,3 +60,8 @@ awk 'NF==0 {print NR}' test.csv
 awk '/Anallese|Wenoa|Chinua/ {print NR, $0}' test.csv 
 ```
 
+> Search particular character. (say in column 2)
+```bash
+awk '$2 ~ /x/ {print $0}' test.csv
+```
+
