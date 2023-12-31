@@ -65,3 +65,23 @@ awk '/Anallese|Wenoa|Chinua/ {print NR, $0}' test.csv
 awk '$2 ~ /x/ {print $0}' test.csv
 ```
 
+> Using different `delimeter` \<say to extract different Columns>
+```bash
+awk -F, '{print $2}' test.csv
+```
+
+> Conditional searching using \<on Columns>
+```bash
+awk -F, '$NF="worker" {print $0}' test.csv
+```
+
+> Searching using multiple delimeter \<on Columns>
+```bash
+awk -F[,:-] '{print $0}' test.csv
+```
+
+
+> Additional Functionality
+```bash
+awk -F, 'NR!=1 {print $2, length($0)}' test.csv
+```
