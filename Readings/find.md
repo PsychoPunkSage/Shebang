@@ -22,7 +22,7 @@ G   ::> GB
 c   ::> Bytes
 ```
 
-</details>
+</details><br>
 
 > Find only file/directory in a given path.
 ```bash
@@ -30,7 +30,7 @@ find /path/ type -f
 ```
 
 <details>
-<summary>Size</summary>
+<summary>Flags</summary>
 
 ```
 f   ::> file
@@ -40,7 +40,7 @@ b   ::> block device
 s   ::> socket
 ```
 
-</details>
+</details><br>
 
 
 > Search a file based on its name.
@@ -54,4 +54,29 @@ find /path/ -iname <FILE_NAME>
 > Search a file for given user only.
 ```bash
 find /path/ -user root
+```
+
+> Search a file based on "inode" no.
+```bash
+find /path/ -inum <inode_number>
+```
+
+<details>
+<summary>Inode no.</summary>
+
+```bash
+ls -li
+```
+
+</details><br>
+
+> Search a file based on no. of `links`
+```bash
+find /path/ -links <no._of_links>
+```
+
+> Search a file based on `Permission`
+```bash
+find /path/ -perm /u=r
+find /path/ -perm 777
 ```
