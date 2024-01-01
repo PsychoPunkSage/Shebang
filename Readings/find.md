@@ -24,7 +24,7 @@ c   ::> Bytes
 
 </details>
 
-> How to find only file/ only directory in a given path.
+> Find only file/directory in a given path.
 ```bash
 find /path/ type -f
 ```
@@ -42,3 +42,16 @@ s   ::> socket
 
 </details>
 
+
+> Search a file based on its name.
+```bash
+# Exact Name
+find /path/ -name <FILE_NAME>
+# Ignore case sensitive
+find /path/ -iname <FILE_NAME>
+```
+
+> Search a file for given user only.
+```bash
+find /path/ -user root
+```
