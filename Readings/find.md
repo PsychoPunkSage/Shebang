@@ -87,3 +87,32 @@ find /path/ -perm 777
 find /path/ -iname "a*"
 ```
 
+> Search files which are modified/created after a given file....
+```bash
+# Files starting with letter "a"
+find /path/ -newer <FILE_NAME>
+```
+
+> Search EMPTY files.
+```bash
+# Files starting with letter "a"
+find /path/ -empty
+```
+
+> Search EMPTY files + DELETE them.
+```bash
+# Files starting with letter "a"
+find /path/ -empty -exec rm {} \;
+```
+
+> Search files with a given file_size Range.
+```bash
+# Files starting with letter "a"
+find /path/ -size +1M -size -50M
+```
+
+> Search files which are old (say 15 days).
+```bash
+# -mtime: days
+find /path/ -mtime 15
+```
