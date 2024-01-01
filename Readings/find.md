@@ -80,3 +80,10 @@ find /path/ -links <no._of_links>
 find /path/ -perm /u=r
 find /path/ -perm 777
 ```
+
+> Search a file using wildcart
+```bash
+# Files starting with letter "a"
+find /path/ -iname "a*"
+```
+
