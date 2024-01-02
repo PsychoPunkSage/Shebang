@@ -7,3 +7,5 @@ read -p "Enter Web name::> " web
 # echo "<SCRIPT> ${0}" >> 34_redirect.log
 ping -c 12 $web >> 34_redirect.log
 # echo "Completed"
+
+# >> file.txt 2>&1 :: append both stdout + stderr to file..

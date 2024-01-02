@@ -22,3 +22,11 @@ done
 #do
 #	echo "Arg $i => ${a[$i]}"
 #done
+
+###################### NOTE: ######################
+#   $@ - Consider all argument as seperate entry  #
+#   $* - Consider all argument as single entry    #
+#   $$ - gives you current process ID             #
+#   *  - (metacharacter) Special char that provide#
+#        info about other char.                   #
+###################################################
