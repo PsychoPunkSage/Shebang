@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Need to find whether the given no. is present or not....
+# Need to find whether the given no. is present or not
 
 read -p "Enter a random no. ::> " num
 
